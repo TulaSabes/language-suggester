@@ -1,6 +1,13 @@
 img {
     width: 50%;
   }
+h1 {
+    color: 	rgb(0, 102, 0); 
+}
+body {
+    background-color:  #f2f2f2
+
+}
   #Ruby {
     display: none;
   }
