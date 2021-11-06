@@ -7,6 +7,7 @@
     <script src="js/scripts.js"></script>
     <h1>Programming Language Suggester!</h1>
   </head>
+  <!-- Where the body begins -->
 <body>   
   <h2>Let's Find the Best Programming Language For You!</h2>
   <p></p>
@@ -21,6 +22,7 @@
       <option>Rust</option>
     </select>
   </div>
+  <!-- Images for each language located here -->
   <div id="Ruby">
     <img src="img/ruby.jpg" alt="">
     <p>Ruby is great if you like making prototyping cool projects!</p>
@@ -38,9 +40,11 @@
     <p>Rust is a pen-source systems programming language that focuses on speed, memory safety and parallelism!</p>
   </div>
 </body> 
+<!-- This is where the survey questions begin (five questions total)-->
+<!-- Question 1-->
 <h1>Survey Questions!</h1>
   <h4>Check all that apply</h4>
-  <p>I enjoy doing the following in my spare time:</p>
+  <strong><p>I enjoy doing the following in my spare time:</p></strong>
 <input type="checkbox" id="option1" name="option1" value="Bike">
 <label for="option1"> I like to ride my bike</label><br>
 <input type="checkbox" id="option2" name="option2" value="Car">
@@ -50,8 +54,57 @@
 <input type="checkbox" id="option4" name="option4" value="Board Game">
 <label for="option4"> I like to play D&D</label><br>
 <input type="checkbox" id="option5" name="option5" value="Camp">
-<label for="option5"> I like to play sports </label><br>
-
+<label for="option5"> I like to play sports </label><br> 
+<!-- Question 2 -->
+<Strong><p>When I'm online I like webpages that are:</p></Strong>
+<input type="checkbox" id="option6" name="option6" value="Fun">
+<label for="option6"> Fun and excting with a lot going on </label><br>
+<input type="checkbox" id="option7" name="option7" value="Chill">
+<label for="option7"> Filled with interactive images </label><br>
+<input type="checkbox" id="option8" name="option8" value="Neat">
+<label for="option8"> Neat and clear with little to no text </label><br>
+<input type="checkbox" id="option9" name="option9" value="Polished">
+<label for="option9"> Colorful with a lot of style </label><br>
+<input type="checkbox" id="option10" name="option5" value="Dull">
+<label for="option5">To the point not a lot going on</label> </label><br> 
+<!-- Question 3 --> 
+<Strong><p>I prefer to use this brand when I am programming:</p></Strong>
+<input type="checkbox" id="option6" name="option6" value="Fun">
+<label for="option6"> Sony </label><br>
+<input type="checkbox" id="option7" name="option7" value="Chill">
+<label for="option7"> Toshiba </label><br>
+<input type="checkbox" id="option8" name="option8" value="Neat">
+<label for="option8"> Apple </label><br>
+<input type="checkbox" id="option9" name="option9" value="Polished">
+<label for="option9"> Hp</label><br>
+<input type="checkbox" id="option10" name="option5" value="Dull">
+<label for="option5">Dell</label> </label><br> 
+<!--Question 4-->
+<Strong><p>I prefer to use this device when I am programming:</p></Strong>
+<input type="checkbox" id="option6" name="option6" value="Fun">
+<label for="option6"> laptop </label><br>
+<input type="checkbox" id="option7" name="option7" value="Chill">
+<label for="option7"> cellular phone </label><br> 
+<!--Question 5-->
+<Strong><p>I prefer to use the following for my actvities:</p></Strong>
+<input type="checkbox" id="option6" name="option6" value="Fun">
+<label for="option6"> applicaitons </label><br>
+<input type="checkbox" id="option7" name="option7" value="Chill">
+<label for="option7"> websites </label><br>  
+<!--Completion of Survey-->
+<h2>Complete your survey here</h2>
+<strong><p>Submit your name and email to recieve an email copy of your results</p></strong>
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Comment:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+    <input type="submit" value="Submit">
     </ul>
   </div>
 </html>

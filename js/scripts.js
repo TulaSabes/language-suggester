@@ -1,20 +1,20 @@
 // Moose
 $(document).ready(function() {
     $("#choose-language").change(function() {
-      const animal = $("#choose-language").val();
+      const language = $("#choose-language").val();
       $("#Ruby").hide();
       $("#Python").hide();
       $("#Javascript").hide();
       $("#Rust").hide();
   
-      // $("#"+animal).show();
-      if (animal === "Ruby") {
+      // $("#"+language).show();
+      if (language === "Ruby") {
         $("#Ruby").show();  
-      } else if (animal === "Python") {
+      } else if (language === "Python") {
         $("#Python").show();
-      } else if (animal === "Javascript") {
+      } else if (language === "Javascript") {
         $("#Javascript").show();
-      } else if (animal === "Rust") {
+      } else if (language === "Rust") {
         $("#Rust").show();
       }
     });
