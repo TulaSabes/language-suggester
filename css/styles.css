@@ -1,0 +1,18 @@
+img {
+    width: 50%;
+  }
+  #Ruby {
+    display: none;
+  }
+  
+  #Python {
+    display: none;
+  } 
+  
+  #Javascript {
+    display: none; 
+  }
+  
+  #Rust {
+    display: none;
+  }
