@@ -17,6 +17,7 @@ $(document).ready(function() {
       } else if (language === "Rust") {
         $("#Rust").show();
       }
+  
     });
   });
   
