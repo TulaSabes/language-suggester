@@ -39,21 +39,23 @@
     <img src="img/rust.jpg" alt="">
     <p>Rust is a pen-source systems programming language that focuses on speed, memory safety and parallelism!</p>
   </div>
-</body> 
+
 <!-- This is where the survey questions begin (five questions total)-->
+
 <!-- Question 1-->
+<form id="message-alert" method="post" enctype="text/plain">
 <h1>Survey Questions!</h1>
   <h4>Check all that apply</h4>
   <strong><p>I enjoy doing the following in my spare time:</p></strong>
-<input type="checkbox" id="option1" name="option1" value="Bike">
+<input type="checkbox" id="option1" name="spare-time" value="Bike">
 <label for="option1"> I like to ride my bike</label><br>
-<input type="checkbox" id="option2" name="option2" value="Car">
+<input type="checkbox" id="option2" name="spare-time" value="Car">
 <label for="option2"> I like to go on road trips </label><br>
-<input type="checkbox" id="option3" name="option3" value="Camp">
+<input type="checkbox" id="option3" name="spare-time" value="Camp">
 <label for="option3"> I like to go camping</label><br>
-<input type="checkbox" id="option4" name="option4" value="Board Game">
+<input type="checkbox" id="option4" name="spare-time" value="Board Game">
 <label for="option4"> I like to play D&D</label><br>
-<input type="checkbox" id="option5" name="option5" value="Camp">
+<input type="checkbox" id="option5" name="spare-time" value="Sports">
 <label for="option5"> I like to play sports </label><br> 
 <!-- Question 2 -->
 <Strong><p>When I'm online I like webpages that are:</p></Strong>
@@ -94,17 +96,15 @@
 <!--Completion of Survey-->
 <h2>Complete your survey here</h2>
 <strong><p>Submit your name and email to recieve an email copy of your results</p></strong>
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-    Name:<br>
-    <input type="text" name="name"><br>
-    E-mail:<br>
-    <input type="text" name="mail"><br>
-    Comment:<br>
-    <input type="text" name="comment" size="50"><br><br>
+<label for="user-name">Name:<br></label>
+    <input id="user-name" type="text" name="name"><br>
+    <label for="user-email">Email:<br></label>
+    <input id="user-email"type="text" name="mail"><br>
+    <label for="user-comment">Comment:<br></label>
+    <input id="user-comment"type="text" name="comment" size="50"><br><br>
     <input type="submit" value="Send">
     <input type="reset" value="Reset">
-    </form>
     <input type="submit" value="Submit">
-    </ul>
-  </div>
+</form>
+</body> 
 </html>
