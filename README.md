@@ -1,8 +1,8 @@
 # Programming Language Suggester 
 
-#### By Tula Sabes 
+ By Tula Sabes 
 
-#### DATE 11/6/2021
+ DATE 11/6/2021
 
 #### Using Javascript and Jquery I created and interactive webpage. On this webpage I create d a Programming language survery that helps the user decide which programming language is best for them. This webpage consists of basic javascript functions. The objective of this project was to show my knowledge in the creation of questions and suggestions on my webpage using Javasript and JQuery. 
 
