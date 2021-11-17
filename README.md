@@ -16,7 +16,8 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+In this project we reviewed how to create a programming sugggester for the user. This was a very intereactive project as there were many ways the user was able to provide their input and recvieve an output. In my code I utilized many javascript functions and arrays to provide a clear message that the user receivesd once they complete their survey. I used debugger to test this action. Overall this was a very challenging yet interesting project. 
+
 
 ## Setup/Installation Requirements
 
